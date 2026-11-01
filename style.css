@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #322739;
+    color: #fff;
+}
+
+.headerlogo {
+    padding: 10px;
+    flex-grow: 2;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.headerlinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 9px;
+}
