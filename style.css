@@ -6,6 +6,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* header section */
 header {
     display: flex;
     flex-direction: row;
@@ -14,18 +15,18 @@ header {
 }
 
 .headerlogo {
-    padding: 10px;
-    flex-grow: 2;
+    padding: 10px 60px;
     font-weight: bold;
     font-size: 12px;
+    margin: 0;
 }
 
 .headerlinks {
     display: flex;
-    flex-direction: row;
     align-items: center;
+    justify-content: flex-end;
     flex-grow: 1;
-    justify-content: center;
+    padding: 10px 60px;
 }
 
 a {
@@ -33,4 +34,52 @@ a {
     text-decoration: none;
     padding: 10px;
     font-size: 9px;
+}
+
+/* first division */
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #322739;
+    padding: 60px;
+    color: #fff;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section1text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.section1text p {
+    font-size: 12px;
+    margin: 0px 0;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.btn1 {
+    background-color: #557a39;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    padding: 5px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
 }
