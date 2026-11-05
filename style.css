@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     text-align: center;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: roboto, sans-serif;
 }
 
 /* header section */
@@ -47,6 +47,14 @@ a {
     color: #fff;
     justify-content: center;
     gap: 20px;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: row;
+    width: 150%;
+    justify-content: center;
+    align-items: center;
 }
 
 .section1text {
@@ -162,10 +170,35 @@ div.texts {
 .section3text {
     font-size: 36px;
     margin: 0px 0;
+    font-style: italic;
 }
 
 .author {
     font-style: italic;
     margin-top: 20px;
     align-self: flex-end;
+}
+
+/* fourth division */
+.section4 {
+    display: flex;
+    flex-direction: column;
+    background-color: #3e2e4a;
+    padding: 60px;
+    color: #fff;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bluebox {
+    width: 200px;
+    height: 200px;
+    background-color: #557a39;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 5px solid #335f26;
 }
