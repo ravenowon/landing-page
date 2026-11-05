@@ -183,7 +183,7 @@ div.texts {
 .section4 {
     display: flex;
     flex-direction: column;
-    background-color: #3e2e4a;
+    background-color: #ffffff;
     padding: 60px;
     color: #fff;
     justify-content: center;
@@ -191,7 +191,7 @@ div.texts {
 }
 
 .bluebox {
-    width: 200px;
+    width: auto;
     height: 200px;
     background-color: #557a39;
     color: #ffffff;
@@ -200,5 +200,41 @@ div.texts {
     align-items: center;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: 5px solid #335f26;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.blueboxtextp {
+    font-size: 18px;
+    margin: 0;
+}
+
+.blueboxtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.btn2 {
+    background-color: #557a39;
+    color: #ffffff;
+    font-weight: bold;
+    border: solid 2px #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+.blueboxsignup {
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
 }
